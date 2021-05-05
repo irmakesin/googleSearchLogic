@@ -1,0 +1,22 @@
+.order-selection {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    select {
+      cursor: pointer;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      padding: 2px 30px 2px 2px;
+      border: none;
+    }
+  }
+  &__list {
+    &__item {
+      &:hover {
+        background: #c4c4c4;
+        border-radius: 4px;
+      }
+    }
+  }
+}

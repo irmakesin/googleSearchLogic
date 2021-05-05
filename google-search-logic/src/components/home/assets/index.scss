@@ -1,0 +1,91 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  &__logo {
+    margin-bottom: 18px;
+  }
+
+  &__title {
+    margin-bottom: 18px;
+  }
+
+  &__search {
+    &-bar {
+      margin-bottom: 18px;
+      &__input {
+        min-height: 46px;
+        background: #ffffff;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 10px;
+        color: #888888;
+        outline: none;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        min-width: 709px;
+        text-align: center;
+      }
+      &__button {
+        border: 1px solid darken(#204080, 0.5);
+        cursor: pointer;
+        background: #204080;
+        border-radius: 8px;
+        font-size: 18px;
+        padding: 13px;
+        color: #ffffff;
+        min-width: 138px;
+        margin-left: 16px;
+      }
+    }
+    &-results {
+      background: #ffffff;
+      border: 1px solid #484848;
+      border-radius: 4px;
+      max-width: 709px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      &__list {
+        list-style-type: none;
+        margin-bottom: 40px;
+        &__item {
+          margin: 18px 35px 10px 30px;
+          border-bottom: 1px solid #585858;
+          display: flex;
+          flex-direction: column;
+          padding-bottom: 5px;
+
+          &__title {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            color: #484848;
+            margin-bottom: 8px;
+          }
+          &__date {
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 14px;
+            color: #686868;
+          }
+        }
+      }
+      &__more-button {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        color: #000000;
+        cursor: pointer;
+        background-color: transparent;
+        align-self: center;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

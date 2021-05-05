@@ -1,0 +1,27 @@
+.search-more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35px;
+
+  &__header {
+    &__logo {
+      margin-right: 35px;
+    }
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+  }
+  &__search-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+    &__selection {
+      align-self: flex-end;
+    }
+  }
+}

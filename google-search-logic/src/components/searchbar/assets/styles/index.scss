@@ -1,0 +1,28 @@
+.search-bar {
+  &__input {
+    min-height: 46px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px;
+    color: #888888;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    min-width: 709px;
+    text-align: center;
+  }
+  &__button {
+    border: 1px solid darken(#204080, 0.5);
+    cursor: pointer;
+    background: #204080;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 13px;
+    color: #ffffff;
+    min-width: 138px;
+    margin-left: 16px;
+  }
+}
