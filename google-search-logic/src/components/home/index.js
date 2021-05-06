@@ -24,7 +24,7 @@ class Home extends Component {
           <img src={TesodevLogo} alt="tesodevlogo" />
         </div>
         <div className="home__title">
-          <h1>Search web app</h1>
+          <h1 className="dsc">Search web app</h1>
         </div>
         <div className="home__search">
           <SearchBar
