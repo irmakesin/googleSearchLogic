@@ -5,6 +5,14 @@
   margin-top: 35px;
 
   &__header {
+    @media only screen and (max-width: 600px) {
+      flex-direction: column;
+    }
+    @media only screen and (min-width: 768px) {
+      display: flex;
+      flex-direction: column;
+    }
+
     &__logo {
       margin-right: 35px;
     }
@@ -12,6 +20,9 @@
   &__header {
     display: flex;
     align-items: center;
+    @media only screen and (min-width: 992px) {
+      flex-direction: row;
+    }
   }
   &__search-list {
     display: flex;

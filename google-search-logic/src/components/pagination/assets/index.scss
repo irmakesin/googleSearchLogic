@@ -1,5 +1,6 @@
 .pagination {
   &__routes {
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     margin-top: 50px;

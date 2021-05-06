@@ -10,6 +10,10 @@
       flex-direction: column;
       padding-bottom: 5px;
       min-width: 644px;
+      @media only screen and (max-width: 600px) {
+        max-width: 300px;
+        min-width: 300px;
+      }
       cursor: pointer;
       &:hover {
         background: #c4c4c4;
