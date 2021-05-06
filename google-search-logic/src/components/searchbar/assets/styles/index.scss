@@ -28,58 +28,35 @@
   }
 }
 
-@media only screen and (max-width: 600px) { 
-  .search-bar {
-    display: grid;
-    width: 88vw;
-    &__input {
-      min-height: 46px;     
-      min-width: 50vw;  
-      display: grid;
-    }
-    &__button {      
-      min-width: 50vw;
-      margin-left: 0px;
-      display: grid;
-      margin-top: 5px;
-    }
-  }
-}
-@media only screen and (min-width:768px){
-  .search-bar {
-    &__input {
-      min-height: 46px;
-      min-width: 50vw;
-      display: grid;
-      float: left;
-
-    }
-    &__button {      
-      display: grid;
-      float: left;
-    }
-  }
-}
-// @media only screen 
-//   and (min-device-width: 768px) 
-//   and (max-device-width: 1024px) 
-//   and (-webkit-min-device-pixel-ratio: 1) {
-//     .search-bar {
+// @media only screen and (max-width: 600px) { 
+//   .search-bar {
+//     display: grid;
+//     width: 88vw;
+//     &__input {
+//       min-height: 46px;     
+//       min-width: 50vw;  
 //       display: grid;
-//       width: 88vw;
-//       &__input {
-//         min-height: 46px;
-//         min-width: 50vw;
-//         display: grid;
-//         float: left;
-
-//       }
-//       &__button {      
-//         min-width: 50vw;
-//         margin-left: 0px;
-//         display: grid;
-//         margin-top: 5px;
-//         float: left;
-//       }
 //     }
+//     &__button {      
+//       min-width: 50vw;
+//       margin-left: 0px;
+//       display: grid;
+//       margin-top: 5px;
+//     }
+//   }
+// }
+// @media only screen and (min-width:768px){
+//   .search-bar {
+//     &__input {
+//       min-height: 46px;
+//       min-width: 50vw;
+//       display: grid;
+//       float: left;
+
+//     }
+//     &__button {      
+//       display: grid;
+//       float: left;
+//     }
+//   }
 // }
